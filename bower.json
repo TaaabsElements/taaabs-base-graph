@@ -1,0 +1,32 @@
+{
+  "name": "taaabs-base-graph",
+  "version": "0.1.0",
+  "description": "A graphical element that displays the graph of a ktbs base.",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "taaabs",
+    "sigmajs"
+  ],
+  "authors": [
+    "Rémi Casado"
+  ],
+  "repository": {
+   "type": "git",
+   "url": "https://github.com/TaaabsElements/taaabs-base-graph.git"
+  },
+  "main": "taaabs-base-graph.html",
+  "license": "https://github.com/TaaabsElements/taaabs-base-graph/LICENSE",
+  "dependencies": {
+    "polymer": "polymer/polymer#^1.0.0",
+    "taaabs-base-create": "TaaabsElements/taaabs-base-create",
+    "iron-icons": "PolymerElements/iron-icons",
+    "iron-flex-layout": "PolymerElements/iron-flex-layout",
+    "sigma-js-component": "https://github.com/Yepikae/sigma-js-component.git"
+  },
+  "devDependencies": {
+    "iron-component-page": "polymerelements/iron-component-page#^1.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  },
+  "ignore": []
+}
