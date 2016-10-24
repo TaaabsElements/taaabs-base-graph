@@ -21,7 +21,8 @@
     "polymer": "polymer/polymer#^1.0.0",
     "taaabs-base-create": "TaaabsElements/taaabs-base-create",
     "iron-icons": "PolymerElements/iron-icons",
-    "iron-flex-layout": "PolymerElements/iron-flex-layout"
+    "iron-flex-layout": "PolymerElements/iron-flex-layout",
+    "sigma-js-component": "https://github.com/Yepikae/sigma-js-component.git"
   },
   "devDependencies": {
     "iron-component-page": "polymerelements/iron-component-page#^1.0.0",
