@@ -59,19 +59,19 @@
       <div id="legend">
         <div>
           <span>{{localize('base')}}</span>
-          <iron-icon style="color:#F2784B; height: 16px; margin: 2px" icon='icons:radio-button-checked'></iron-icon>
+          <iron-icon style="color:#FF5722; height: 16px; margin: 2px" icon='icons:radio-button-checked'></iron-icon>
         </div>
         <div>
           <span>{{localize('model')}}</span>
-          <iron-icon style="color:#F4D03F; height: 16px; margin: 2px" icon='icons:radio-button-checked'></iron-icon>
+          <iron-icon style="color:#FFC107; height: 16px; margin: 2px" icon='icons:radio-button-checked'></iron-icon>
         </div>
         <div>
           <span>{{localize('ct')}}</span>
-          <iron-icon style="color:#446CB3; height: 16px; margin: 2px" icon='icons:radio-button-checked'></iron-icon>
+          <iron-icon style="color:#2196F3; height: 16px; margin: 2px" icon='icons:radio-button-checked'></iron-icon>
         </div>
         <div>
           <span>{{localize('st')}}</span>
-          <iron-icon style="color:#81CFE0; height: 16px; margin: 2px" icon='icons:radio-button-checked'></iron-icon>
+          <iron-icon style="color:#03A9F4; height: 16px; margin: 2px" icon='icons:radio-button-checked'></iron-icon>
         </div>
       </div>
     </div>
@@ -454,7 +454,7 @@
         // We stop the rotating refresh button
         clearInterval(this._loadingInterval);
         // We notify the parent that we're done refreshing.
-        this.fire('REFRESHED');
+        this.fire('refreshed');
       },
 
       /**

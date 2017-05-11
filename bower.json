@@ -18,7 +18,7 @@
   "main": "taaabs-base-graph.html",
   "license": "https://github.com/TaaabsElements/taaabs-base-graph/LICENSE",
   "dependencies": {
-    "polymer": "polymer/polymer#^1.0.0",
+    "polymer": "polymer/polymer",
     "taaabs-base-create": "TaaabsElements/taaabs-base-create",
     "iron-icons": "PolymerElements/iron-icons",
     "iron-flex-layout": "PolymerElements/iron-flex-layout",
