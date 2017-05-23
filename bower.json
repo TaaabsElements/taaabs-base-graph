@@ -18,10 +18,9 @@
   "main": "taaabs-base-graph.html",
   "license": "https://github.com/TaaabsElements/taaabs-base-graph/LICENSE",
   "dependencies": {
-    "polymer": "polymer/polymer",
-    "taaabs-base-create": "TaaabsElements/taaabs-base-create",
-    "iron-icons": "PolymerElements/iron-icons",
-    "iron-flex-layout": "PolymerElements/iron-flex-layout",
+    "polymer": "Polymer/polymer#<2.*",
+    "iron-icons": "PolymerElements/iron-icons#<2.*",
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#<2.*",
     "sigma-js-component": "https://github.com/Yepikae/sigma-js-component.git"
   },
   "devDependencies": {
